@@ -35,7 +35,7 @@ Consumer and Producer can now connect to kafka cluster using the you local compu
 
     docker exec -it kafka-docker_kafka_1 usr/bin/kafka-topics --create --zookeeper $HOST_IP:32181 --replication-factor 1 --partitions 2 --topic name-your-topic
 
-**Increase partitions to existing topic**
+**Increase partitions of existing topic**
 
     docker exec -it kafka-docker_kafka_1 usr/bin/kafka-topics --zookeeper $HOST_IP:32181 --alter --topic yourTopic --partitions 4
 

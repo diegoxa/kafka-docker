@@ -21,7 +21,7 @@ There should be two containers (one is zookeeper, the other is kafka server/brok
 
 Consumer and Producer can now connect to kafka cluster using the you local computer's IP at port `29092`
 
-    bootstrapservers: 10.122.0.108:29092
+    bootstrapservers: 10.0.1.34:29092
 
 ## Kafka Commands
 

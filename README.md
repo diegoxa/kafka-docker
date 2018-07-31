@@ -39,3 +39,8 @@ Consumer and Producer can now connect to kafka cluster using the you local compu
 
     docker exec -it kafka-docker_kafka_1 usr/bin/kafka-topics --zookeeper $HOST_IP:32181 --alter --topic yourTopic --partitions 4
 
+**Change Topic Retention Time**
+
+    docker exec -it kafka-docker_kafka_1 usr/bin/kafka-topics --zookeeper $HOST_IP:32181 --alter --topic MyTopic --config retention.ms=1000
+
+

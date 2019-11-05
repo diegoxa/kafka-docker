@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-var bootstrapServers = "10.122.0.108:29092"
+var bootstrapServers = "10.120.2.96:29092"
 
 func main() {
 

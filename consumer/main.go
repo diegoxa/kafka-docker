@@ -6,7 +6,7 @@ import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 )
 
-var bootstrapServers = "10.122.0.108:29092"
+var bootstrapServers = "10.120.2.96:29092"
 
 func main() {
 	// library librdkafka is needed
@@ -14,6 +14,8 @@ func main() {
 		"bootstrap.servers": bootstrapServers,
 		"group.id":          "group1",
 		"auto.offset.reset": "earliest",
+		//"auto.offset.reset": "largest",
+		//"auto.offset.reset": "smallest",
 	})
 
 	if err != nil {

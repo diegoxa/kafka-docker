@@ -1,0 +1,2 @@
+# github.com/confluentinc/confluent-kafka-go v1.1.0
+github.com/confluentinc/confluent-kafka-go/kafka
